@@ -4,6 +4,10 @@
  * and open the template in the editor.
  */
 package actividad_02_ud4_ed;
+/**
+ * 
+ * @author Antonio Luis Domínguez
+ */
 
 
 import java.io.BufferedReader;
@@ -12,11 +16,17 @@ import java.io.InputStreamReader;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-
+/**
+ * 
+ * @author Antonio Luis Domínguez
+ */
 public class Main {
     static BufferedReader dato = new BufferedReader(new InputStreamReader(System.in));
 
-   
+   /**
+    * 
+    * @param args the command line arguments 
+    */
     public static void main(String[] args) {
         CCuenta cuenta1;
         double saldoActual;
